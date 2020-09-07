@@ -1,0 +1,12 @@
+
+.navbar {
+    color: rgb(250, 250, 250);
+    background-color: #131313;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.nav-item {
+    margin-left: 85vw; 
+    margin-top: -4vh;
+}
