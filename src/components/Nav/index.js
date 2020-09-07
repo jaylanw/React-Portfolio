@@ -3,18 +3,15 @@ import React from 'react';
 function Navbar () {
     return (
       <nav className="navbar">
-      <div className="navbar-brand">
-        JW
-      </div>
-      <nav className="navbar">
       <div className="nav-row">
+        <h1>JW</h1>
         <div className="linkContainer">
           <a className="nav-item nav-link" href="index.html">Work</a>
           <a className="nav-item nav-link" href="contact.html">Contact</a>
         </div>
       </div>
     </nav>
-    </nav>
+   
     )
   }
 
