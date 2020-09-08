@@ -2,9 +2,10 @@ import React from 'react';
 import './style.css'
 function Gallery() {
     return (
-        <div className="site-content">
+      <div className="container">
+        <main className="site-content">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-sm-6 col-md-3">
             <img  src="../assets/images/eli1.jpg" alt="grad" />
             <img  src="../assets/images/eli2.jpg" alt="grad" />
             <img  src="../assets/images/eli3.JPG" alt="grad" />
@@ -14,7 +15,7 @@ function Gallery() {
             <img className="lazy" data-src="../assets/images/a3.jpg" alt="grad" />
             <img className="lazy" data-src="../assets/images/a4.jpg" alt="grad" />
           </div>
-          <div className="col-md-3">
+          <div className="col-sm-6 col-md-3">
             <img src="../assets/images/d1.jpg" alt="couple" />
             <img  src="../assets/images/d2.jpg" alt="couple" />
             <img  src="../assets/images/d4.jpg" alt="couple" />
@@ -25,7 +26,7 @@ function Gallery() {
             <img className="lazy" data-src="../assets/images/wed3.jpg" alt="wedding" />
             <img className="lazy" data-src="../assets/images/wed2.jpg" alt="wedding" />
           </div>
-          <div className="col-md-3">
+          <div className="col-sm-6 col-md-3">
             <img src="../assets/images/o1.jpg"  alt="couple" />
             <img  src="../assets/images/o2.jpg" alt="couple" />
             <img  src="../assets/images/o3.jpg" alt="couple" />
@@ -38,7 +39,7 @@ function Gallery() {
             <img className="lazy" data-src="../assets/images/g2.jpg" alt="couple" />
             <img className="lazy" data-src="../assets/images/wed1.jpg" alt="couple" />
           </div>
-          <div className="col-md-3">
+          <div className="col-sm-6 col-md-3">
             <img src="../assets/images/vf.jpg" alt="family" />
             <img src="../assets/images/vf2.jpg" alt="family" />
             <img src="../assets/images/vf3.jpg" alt="family" />
@@ -50,7 +51,8 @@ function Gallery() {
             <img className="lazy" data-src="../assets/images/wed5.jpg" alt="wedding" />
             <img className="lazy" data-src="../assets/images/wed4.jpg" alt="wedding" />
           </div>
-        </div>
+          </div>
+        </main>
   </div>
     )
 }
