@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 function Web() {
     return(
-        <div className="container">
+        <div className="webContainer">
             <div className="row">
                 <div className="column-l">
                     <h2>time</h2>
@@ -26,7 +26,7 @@ function Web() {
                 <div className="column-l">
                     <a href="https://shrouded-chamber-97830.herokuapp.com/" target="blank">
                         <img
-                            src="./assets/images/moodifiScreen.png"
+                            src="../assets/images/moodifiScreen.png"
                             className="imgL"
                             alt="moodifi"
                         />
@@ -53,7 +53,7 @@ function Web() {
                     <div className="web-container">
                         <a href="https://shmoesolid.github.io/Coffee-Run/" target="blank">
                             <img
-                                src="./assets/images/coffeerun.png"
+                                src="../assets/images/coffeerun.png"
                                 className="imgR"
                                 alt="coffeerun"
                             />
@@ -65,7 +65,7 @@ function Web() {
             <div className="column-l">
                 <a href="https://jaylanw.github.io/Weekly-Weather/" target="blank">
                     <img
-                        src="./assets/images/weeklyweather.jpeg"
+                        src="../assets/images/weeklyweather.jpeg"
                         className="imgL"
                         alt="weeklyweather"
                     />
@@ -93,7 +93,7 @@ function Web() {
                     <div className="web-container">
                         <a href="https://jaylannotes.herokuapp.com/" target="blank">
                             <img
-                                src="./assets/images/noteTaker.png"
+                                src="../assets/images/noteTaker.png"
                                 className="imgR"
                                 alt="noteTaker"
                             />
