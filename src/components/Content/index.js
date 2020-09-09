@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 function Content() {
     return (
     <div className="container">
-                <nav className="navbar">
+        <nav className="navbar">
       <div className="nav-row">
         <h1 className="navHead">JW</h1>
         <div className="linkContainer">
