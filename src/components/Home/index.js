@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
@@ -10,18 +11,18 @@ function Home() {
         </h1>
                 <div className="img-container animate__animated animate__fadeIn">
                     <div className="container-y">
-                        <a href="gallery.html">
+                    <Link to="/Gallery">
                             <h4>PHOTOGRAPHY</h4>
-                        </a>
-                        <a href="web.html">
-                            <h4>WEB DESIGN</h4>
-                        </a>
-                        <a href="content.html">
+                    </Link>
+                    <Link to="/Web">
+                         <h4>WEB DESIGN</h4>
+                        </Link>
+                        <Link to="/Content">
                             <h4>CONTENT</h4>
-                        </a>
-                        <a href="contact.html">
+                        </Link>
+                        <Link to="/Contact">
                             <h4>CONTACT</h4>
-                        </a>
+                        </Link>
                     </div>
                 </div>
       </div>

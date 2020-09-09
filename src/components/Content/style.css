@@ -93,3 +93,43 @@ and (max-device-width : 1024px) {
   max-width: 100%;
 }
 }
+
+.navbar {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  display: inline;
+  padding-right: 1vw;
+  padding-left: 0px;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.linkContainer {
+  margin-left: 80vw;
+}
+
+nav {
+margin-top: 2vh;
+margin-left: 2vw;
+display: inline-block;
+flex: auto;
+font-family: 'Krona One', sans-serif;
+
+}
+
+.navHead {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Krona One', sans-serif;
+  
+}
+
