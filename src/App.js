@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
  // import Nav from './components/Nav'
  import Contact from './components/Contact'
- import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+ import { BrowserRouter as Router, Route} from 'react-router-dom';
  import Web from './components/Web'
 import Gallery from './components/Gallery'
 import Content from './components/Content'; 
@@ -11,9 +11,10 @@ import Home from './components/Home'
 function App() {
   return (
     <Router>
-      <div>
-        <Home />
-       <Switch>
+
+        <Route path="/" exact>
+                <Home />
+          </Route>
        <Route path="/Gallery" exact>
                 <Gallery />
             </Route>  
@@ -26,8 +27,7 @@ function App() {
        <Route path="/Contact" exact>
                 <Contact />
             </Route>
-            </Switch>
-      </div>
+  
       </Router>
   );
 }

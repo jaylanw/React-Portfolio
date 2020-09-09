@@ -1,19 +1,12 @@
 import React from 'react';
  import './style.css'
- import { NavLink } from 'react-router-dom';
-function Contact () {
+ import Nav from '../Nav'
+ 
+ function Contact () {
     return (
       <div className="contactBody">
       <div className="container">
-      <nav className="navbar">
-      <div className="nav-row">
-        <h1 className="navHead">JW</h1>
-        <div className="linkContainer">
-          <NavLink className="nav-item nav-link" to="/Home">Work</NavLink>
-          <NavLink className="nav-item nav-link" to="/Contact">Contact</NavLink>
-        </div>
-      </div>
-    </nav>
+          <Nav />
         <h2 id="ch2">
           WHERE PASSION
           <br />
