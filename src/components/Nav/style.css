@@ -29,3 +29,11 @@ flex: auto;
 font-family: 'Krona One', sans-serif;
 
 }
+
+.navHead {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Krona One', sans-serif;
+    
+}
